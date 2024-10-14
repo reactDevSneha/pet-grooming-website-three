@@ -1,0 +1,43 @@
+@media (max-width: 991px) {
+  /* header */
+  html {
+    font-size: 55%;
+  }
+  .navigation-wrap {
+    background-color: var(--primary-color);
+  }
+  #home {
+    min-height: 100%;
+  }
+  #home .carousel-item {
+    padding: 3rem;
+  }
+
+
+  #booking .main-btn {
+    margin: auto !important;
+    width: 80%;
+  
+  }
+}
+@media (max-width: 767px) {
+ h2 {
+  font-size: 3rem;
+ }
+
+}
+@media (max-width: 576px) {
+ 
+  
+}
+@media (max-width: 380px) {
+  #newsletter .content {
+    width: 260px;
+  
+  }
+
+}
+
+@media (max-width: 295px) {
+   
+}
