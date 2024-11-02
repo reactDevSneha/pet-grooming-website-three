@@ -1,43 +1,90 @@
+
 @media (max-width: 991px) {
-  /* header */
+  /* =============header========== */
   html {
     font-size: 55%;
   }
   .navigation-wrap {
     background-color: var(--primary-color);
   }
-  #home {
-    min-height: 100%;
-  }
-  #home .carousel-item {
-    padding: 3rem;
+  .navigation-wrap .nav-link{
+    color: var(--black-color) !important;
   }
 
-
+  .upper-header p {
+    margin-bottom: 0 !important;
+    color: var(--white-color);
+    font-size: 1.2rem !important;
+  }
   #booking .main-btn {
     margin: auto !important;
-    width: 80%;
-  
+    width: 40%;
+    width: 25rem;
+    margin-top: 3rem;
   }
+
+  /* =============home========== */
+
+  #home {
+    min-height: 60%;
+  }
+ 
+
 }
 @media (max-width: 767px) {
+  /* =============header========== */
+
+  .navigation-wrap {
+    top: 0;
+    background-color: var(--primary-color);
+  }
+ h1 {
+  font-size: 6rem;
+ }
  h2 {
   font-size: 3rem;
  }
+#booking .bg-dark {
+  padding: 2rem 6rem;
 
+
+}
 }
 @media (max-width: 576px) {
  
-  
+  h2 span::before {
+  display: none;
+  }
+  #offer .card{
+    height: 100%;
+    background-color: var(--black-color);
+    padding: none;
+    
+  }
 }
 @media (max-width: 380px) {
-  #newsletter .content {
+  html {
+    font-size: 50%;
+  }
+  #booking .container {
+    padding: 0%;
+  }
+  #booking .bg-dark {
+    padding: 2rem;
+  
+  
+  }
+  /* offer section  */
+
+  /* =============newsletter========== */
+
+  #newsletter .news-letter-content {
     width: 260px;
   
+  }
+  h1 {
+    font-size: 4rem;
   }
 
 }
 
-@media (max-width: 295px) {
-   
-}
